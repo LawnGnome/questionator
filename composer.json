@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php": ">=7.0.0",
+        "silex/silex": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LawnGnome\\Questionator\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
